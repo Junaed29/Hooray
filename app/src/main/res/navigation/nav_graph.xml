@@ -3,11 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/profileFragment">
-
+    app:startDestination="@id/HHPlans_LeadingFragment">
     <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.jsc.hooray.ProfileFragment"
-        android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        android:id="@+id/HHPlans_LeadingFragment"
+        android:name="com.jsc.hooray.hh_plans.HHPlans_LeadingFragment"
+        android:label="fragment_hh_plans_leading"
+        tools:layout="@layout/fragment_hh_plans_leading" />
+    <fragment
+        android:id="@+id/HHPlans_Tires_Selection_Fragment"
+        android:name="com.jsc.hooray.hh_plans.HHPlans_Tires_Selection_Fragment"
+        android:label="fragment_hh_plans_tires_selection"
+        tools:layout="@layout/fragment_hh_plans_tires_selection" />
+    <fragment
+        android:id="@+id/HHPlans_Detail_Fragment"
+        android:name="com.jsc.hooray.hh_plans.HHPlans_Detail_Fragment"
+        android:label="fragment_hh_plans_detail"
+        tools:layout="@layout/fragment_hh_plans_detail" />
+    <fragment
+        android:id="@+id/FHN_LeadingPage_Fragment"
+        android:name="com.jsc.hooray.FHN_LeadingPage_Fragment"
+        android:label="fragment_fhn_leading_page"
+        tools:layout="@layout/fragment_fhn_leading_page" />
 </navigation>
